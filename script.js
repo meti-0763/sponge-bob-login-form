@@ -42,13 +42,13 @@ input1.addEventListener("keydown",(event)=>{
     
 
 if(event.keyCode==8 && addleft > 107){
-    addleft-=1
-    addright-=1
+    addleft--
+    addright--
 
 
 }else if( addleft <= 124 ){
-    addleft+=1
-    addright+=1
+    addleft++
+    addright++
     console.log(addleft);
     
 }
